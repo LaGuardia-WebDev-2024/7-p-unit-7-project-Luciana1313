@@ -9,17 +9,18 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
-  background(255,255,255,0);
-  
-
-
-
-
+  //Rain
+  line(30, 70, 100, 100);
+  line(15, 60, 140, 100);
+  line(10, 50, 130, 100);
+  line(20, 40, 160, 100);
+  line(20, 30, 120, 100);
 
 
   if(mousePressed){showXYPositions();}
 
 }
+  background(255,255,255,0);
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
