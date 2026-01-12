@@ -10,11 +10,13 @@ void setup() {
 draw = function(){
  
   //Rain
-  line(30, 70, 100, 100);
-  line(15, 60, 140, 100);
-  line(10, 50, 130, 100);
-  line(20, 40, 160, 100);
-  line(20, 30, 120, 100);
+  fill(82, 222, 240);
+  line(30, 90, 150, 150);
+  line(40, 70, 100, 100);
+  line(20, 80, 100, 120);
+  line(40, 100, 160, 160);
+  line(60, 90, 120, 120);
+  line(80, 140, 160, 180);
 
 
   if(mousePressed){showXYPositions();}
