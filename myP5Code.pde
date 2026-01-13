@@ -7,20 +7,60 @@ void setup() {
 
 
 //🟢Draw Procedure - Runs on Repeat
+
+var rainX = 10;
 draw = function(){
- 
-  //Rain
-  fill(82, 222, 240);
-  line(30, 90, 150, 150);
-  line(40, 70, 100, 100);
-  line(20, 80, 100, 120);
-  line(40, 100, 160, 160);
-  line(60, 90, 120, 120);
-  line(80, 140, 160, 180);
-
-
+fill(300,300,300)
+ellipse(10, 30, rainX, 15);
+ellipse(30, 10, rainX, 15);
+ellipse(100, 20, rainX, 15);
+ellipse(300, 30, rainX, 15);
+ellipse(350, 10, rainX, 15);
+ellipse(400, 30, rainX, 15);
+ellipse(150, 10, rainX, 15);
+ellipse(50, 20, rainX, 15);
+ellipse(200, 30, rainX, 15);
+ellipse(300, 20, rainX, 15);
+ellipse(250, 10, rainX, 15);
+ellipse(550, 20, rainX, 15);
+ellipse(600, 30, rainX, 15);
+ellipse(520, 30, rainX, 15);
+ellipse(490, 10, rainX, 15);
+ellipse(480, 40, rainX, 15);
+ellipse(425, 20, rainX, 15);
+ellipse(390, 10, rainX, 15);
+ellipse(480, 50, rainX, 15);
+ellipse(10, 30, rainX, 15);
+ellipse(30, 10, rainX, 15);
+ellipse(100, 20, rainX, 15);
+ellipse(300, 30, rainX, 15);
+ellipse(350, 10, rainX, 15);
+ellipse(400, 30, rainX, 15);
+ellipse(150, 10, rainX, 15);
+ellipse(50, 20, rainX, 15);
+ellipse(200, 30, rainX, 15);
+ellipse(300, 20, rainX, 15);
+ellipse(250, 190, rainX, 15);
+ellipse(550, 200, rainX, 15);
+ellipse(600, 250, rainX, 15);
+ellipse(520, 350, rainX, 15);
+ellipse(490, 50, rainX, 15);
+ellipse(480, 100, rainX, 15);
+ellipse(425, 200, rainX, 15);
+ellipse(390, 300, rainX, 15);
+ellipse(300, 400, rainX, 15);
+ellipse(10, 300, rainX, 15);
+ellipse(30, 250, rainX, 15);
+ellipse(100, 200, rainX, 15);
+ellipse(300, 300, rainX, 15);
+ellipse(350, 150, rainX, 15);
+ellipse(400, 350, rainX, 15);
   if(mousePressed){showXYPositions();}
-
+rainX=rainX+1
+if (rainX>30){
+  rainX=20;
+  x=10;
+}
 }
   background(255,255,255,0);
 
