@@ -4,11 +4,10 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+var mouthY = 10;
+var rainX = 10;
 
 //🟢Draw Procedure - Runs on Repeat
-
-var rainX = 10;
 draw = function(){
 fill(50,190,200)
 ellipse(11, 30, rainX, 15);
@@ -72,13 +71,18 @@ ellipse(375, 50, 50, 50)
 ellipse(425, 50, 50, 50)
 
 //frog eyes
-fill(0 , 0, 0)
-ellipse(375, 50, 50, 50)
+fill(250,250,250)
+ellipse(375, 50, 40, 40)
+ellipse(425, 50, 40, 40)
+fill(0,0,0)
+ellipse(375, 50, 20, 20)
+ellipse(425, 50, 20, 20)
 
-
+//frog mouth
+fill(200,0,0)
+ellipse(400, 120, 60, mouthY)
+mouthY=mouthY+2
 }
-  background(255,255,255,0);
-
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
 
