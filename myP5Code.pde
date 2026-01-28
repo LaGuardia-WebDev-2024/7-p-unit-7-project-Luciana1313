@@ -83,6 +83,7 @@ fill(200,0,0)
 ellipse(400, 120, 60, mouthY)
 mouthY=mouthY+2
 }
+  background(255,255,255,0);
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
 
